@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* welcome screen section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 100px;
+}
+
+nav img {
+  width: 5%;
+}
+
+nav ul a {
+  margin: 0 20px;
+  font-size: 20px;
+  color: white !important;
+}
+
+nav ul a:hover {
+  cursor: pointer;
+}
+
+nav ul a:last-child {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.signup-section {
+  background-image: url("./images/background_website.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  height: 90vh;
+}
+
+.laptop-img img {
+  width: 100%;
+}
+
+.signup-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup-text {
+  text-align: left;
+}
+
+.signup-text p {
+  width: 70%;
+  font-size: 19px;
+}
+
+#mc_embed_signup form {
+  text-align: left !important;
+}
+
+#mc_embed_signup .button {
+  background-color: #27ad5f !important;
+}
+
+/* section dividers */
+.section-divider {
+  width: 40%;
+  height: 5px;
+}
+
+/* features section */
+
+.info-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.info-content-container img {
+  width: 50%;
+  /* height: 50%; */
+  margin-bottom: 20px;
+}
+
+.img-3rd img {
+  width: 35%;
+}
+
+.info-row {
+  padding: 0 50px;
+}
+
+/* overview section */
+
+.get-started {
+  background-color: #1c7a43;
+  position: relative;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.get-started-row {
+  display: flex;
+  align-items: center;
+}
+
+.phone-img img {
+  width: 90%;
+}
+
+.spiral {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.get-started-text {
+  color: white;
+}
+
+.get-started-text h3 {
+  font-size: 40px;
+}
+
+.get-started-text ol li {
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+/* second-signup */
+.second-signup {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
