@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +27,7 @@ nav ul a {
   margin: 0 20px;
   font-size: 20px;
   color: white !important;
+  text-decoration: none;
 }
 
 nav ul a:hover {
@@ -36,7 +41,7 @@ nav ul a:last-child {
 }
 
 .signup-section {
-  background-image: url("./images/background_website.png");
+  background-image: url("./images/top_background_img.svg");
   background-repeat: no-repeat;
   background-position: 100% 0%;
   height: 90vh;
@@ -46,20 +51,28 @@ nav ul a:last-child {
   width: 100%;
 }
 
-.signup-text-container {
+.home-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.signup-text {
-  text-align: left;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 80vh;
 }
 
-.signup-text p {
-  width: 70%;
-  font-size: 19px;
+.signup-text-container {
+  width: 40%;
 }
 
+.signup-text-container p {
+  width: 80%;
+  font-size: 20px;
+  color: #a9a9a9;
+}
+
+.signup-text-container h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+}
 #mc_embed_signup form {
   text-align: left !important;
 }
@@ -71,29 +84,56 @@ nav ul a:last-child {
 /* section dividers */
 .section-divider {
   width: 40%;
-  height: 5px;
+  height: 2px;
+  background-color: #d9d9d9;
+  border: none;
 }
 
 /* features section */
-
+.features-container {
+  display: flex;
+  padding: 0 50px;
+}
 .info-content-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 70vh;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
 }
 
-.info-content-container img {
-  width: 50%;
-  /* height: 50%; */
-  margin-bottom: 20px;
+.info-content-container p {
+  width: 70%;
 }
 
-.img-3rd img {
-  width: 35%;
+.info-content-container h3 {
+  margin-bottom: 0;
+}
+
+.img-container {
+  height: 250px;
+  width: 250px;
+}
+
+.img-1 {
+  background-image: url("./images/contest_img.svg");
+  background-size: cover;
+}
+
+.img-2 {
+  background-image: url("./images/build_img.svg");
+  background-size: cover;
+}
+.img-3 {
+  background-image: url("./images/sell_img.svg");
+  background-size: cover;
+}
+
+.img-4 {
+  background-image: url("./images/fullcash_img.svg");
+  background-size: cover;
 }
 
 .info-row {
@@ -110,13 +150,26 @@ nav ul a:last-child {
   margin-bottom: 80px;
 }
 
+.overview-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 48px;
+  align-items: center;
+}
+
 .get-started-row {
   display: flex;
   align-items: center;
 }
 
-.phone-img img {
-  width: 90%;
+.phone-img-container img {
+  width: 60%;
+}
+
+.phone-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .spiral {
@@ -135,7 +188,7 @@ nav ul a:last-child {
 
 .get-started-text ol li {
   margin: 30px 0;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /* second-signup */
@@ -144,4 +197,25 @@ nav ul a:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#second-email {
+  font-size: 30px !important;
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup_scroll-2 {
+  text-align: center;
+}
+
+/* Footer section */
+footer {
+  background-color: #1c7a43;
+  margin: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
