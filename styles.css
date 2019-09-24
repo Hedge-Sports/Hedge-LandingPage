@@ -10,6 +10,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.mobile-logo {
+  display: none;
+}
+
 /* welcome screen section */
 nav {
   display: flex;
@@ -47,7 +51,7 @@ nav ul a:last-child {
   height: 90vh;
 }
 
-.laptop-img img {
+.laptop-img-container img {
   width: 100%;
 }
 
@@ -55,7 +59,7 @@ nav ul a:last-child {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .signup-text-container {
@@ -93,6 +97,7 @@ nav ul a:last-child {
 .features-container {
   display: flex;
   padding: 0 50px;
+  /* margin-bottom: 100px; */
 }
 .info-content-container {
   display: flex;
@@ -102,6 +107,7 @@ nav ul a:last-child {
   height: 70vh;
   /* padding: 20px; */
   text-align: center;
+  margin-bottom: 38px;
 }
 
 .info-content-container p {
@@ -146,7 +152,7 @@ nav ul a:last-child {
   background-color: #1c7a43;
   position: relative;
   padding: 30px;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 80px;
 }
 
@@ -218,4 +224,125 @@ footer {
   align-items: center;
   color: white;
   font-size: 20px;
+}
+
+/* media query for iPhone 6,7,8 view */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("./images/Hedge_final_HEDGE\ WHITE.svg");
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 30px; */
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .signup-section {
+    /* padding-top: 50px !important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 785px;
+  }
+
+  .signup-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .signup-text-container h1 {
+    font-size: 30px;
+    color: white;
+  }
+
+  .signup-text-container p {
+    text-align: center;
+  }
+
+  .laptop-img-container img {
+    width: 100%;
+    /* margin-bottom: 100px; */
+  }
+
+  .section-divider {
+  }
+  #mc_embed_signup_scroll {
+    display: none !important;
+  }
+
+  .info-content-container {
+    height: 50vh;
+    margin-bottom: 0;
+  }
+
+  .features-container {
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .overview-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .spiral {
+    display: none;
+  }
+
+  .overview-container .get-started-text {
+    width: 100%;
+  }
+
+  .overview-container .get-started-text h3 {
+    font-size: 36px;
+  }
+
+  .info-content-container h3 {
+    margin: 0;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  #subscribe {
+    padding: 0 30px !important;
+  }
+
+  #subscribe #second-email {
+    font-size: 25px !important;
+  }
+}
+
+/* media query for iphone x */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .mobile-logo {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("./images/Hedge_final_HEDGE\ WHITE.svg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    /* margin-bottom: 30px; */
+  }
+
+  .features-container {
+    /* margin-bottom: 30px; */
+    margin-top: 0px;
+  }
 }
