@@ -112,9 +112,10 @@ input #mce-EMAIL {
 
 .cont-3 {
   /* margin-left: 170px; */
-  padding-left: 21% !important;
+  padding-left: 18% !important;
   padding-right: 0;
   padding-top: 1%;
+  margin-top: 0;
   /* background-color: red; */
 }
 
