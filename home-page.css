@@ -85,8 +85,9 @@ nav ul a:last-child {
 }
 
 #mc_embed_signup input.email {
-  background-color: #1b7a43 !important;
+  /* background-color: #1b7a43 !important; */
   border: 2px solid white !important;
+  color: white !important;
 }
 
 input #mce-EMAIL {
