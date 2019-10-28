@@ -117,7 +117,13 @@ input #mce-EMAIL {
   padding-right: 0;
   padding-top: 1%;
   margin-top: 0;
+
   /* background-color: red; */
+}
+
+.feature-content-3 {
+  position: relative;
+  z-index: 2;
 }
 
 .cont-4 {
@@ -166,6 +172,7 @@ input #mce-EMAIL {
   position: absolute;
   right: 29%;
   top: 190%;
+  z-index: 1;
 }
 /* to get started feature */
 .bottom-phone-img-container img {
