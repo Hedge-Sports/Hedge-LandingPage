@@ -188,3 +188,132 @@ input #mce-EMAIL {
 .second-get-started {
   margin-bottom: 0;
 }
+
+/* media query for iPhone 6,7,8 view */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .middle-svg,
+  .top-svg,
+  .bottom-svg {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .home-text-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-text-container p {
+    width: 80%;
+  }
+
+  .top-phone-img-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-container {
+    padding: 0 40px;
+    margin-bottom: 100px;
+  }
+
+  .feature-content {
+    width: 90%;
+  }
+
+  .features-title-text {
+    padding: 0 20px;
+  }
+
+  .cont-odd {
+    justify-content: center;
+  }
+
+  .cont-even {
+    justify-content: center;
+  }
+
+  .cont-3 {
+    padding: 0 40px 0 40px !important;
+  }
+
+  .cont-4 {
+    padding: 0 40px 0 40px;
+  }
+
+  .bottom-phone-img-container {
+    width: 90%;
+  }
+}
+/* media query for iphone x */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .middle-svg,
+  .top-svg,
+  .bottom-svg {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .home-text-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-text-container p {
+    width: 80%;
+  }
+
+  .top-phone-img-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-container {
+    padding: 0 40px;
+    margin-bottom: 100px;
+  }
+
+  .feature-content {
+    width: 90%;
+  }
+
+  .features-title-text {
+    padding: 0 20px;
+  }
+
+  .cont-odd {
+    justify-content: center;
+  }
+
+  .cont-even {
+    justify-content: center;
+  }
+
+  .cont-3 {
+    padding: 0 40px 0 40px !important;
+  }
+
+  .cont-4 {
+    padding: 0 40px 0 40px;
+  }
+
+  .bottom-phone-img-container {
+    width: 90%;
+  }
+}
