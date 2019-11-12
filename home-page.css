@@ -201,7 +201,7 @@ input #mce-EMAIL {
 }
 
 /* media query for iPhone 6,7,8 view */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
   .middle-svg,
   .top-svg,
   .bottom-svg {
@@ -298,11 +298,11 @@ input #mce-EMAIL {
   }
 
   .bottom-phone-img-container {
-    width: 50%;
+    width: 90%;
   }
 }
 /* media query for iphone x */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .middle-svg,
   .top-svg,
   .bottom-svg {
