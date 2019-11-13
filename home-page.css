@@ -91,24 +91,6 @@ nav ul a:last-child {
   margin-bottom: 0;
   font-size: 40px;
 }
-#mc_embed_signup form {
-  text-align: left !important;
-}
-
-#mc_embed_signup input.email {
-  /* background-color: #1b7a43 !important; */
-  border: 2px solid white !important;
-  color: white !important;
-}
-
-input #mce-EMAIL {
-  color: white !important;
-}
-
-#mc_embed_signup .button {
-  background-color: white !important;
-  color: #1b7a43 !important;
-}
 
 /* all the features section */
 .features-title-text {
