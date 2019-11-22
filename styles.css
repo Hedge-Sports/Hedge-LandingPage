@@ -289,15 +289,15 @@ footer {
     opacity: 1;
   }
 
-  .mobile-logo {
+  /* .mobile-logo {
     display: block;
     width: 100%;
     height: 200px;
     background-image: url("./images/Hedge_final_HEDGE\ WHITE.svg");
     background-size: cover;
     background-position: center;
-    /* margin-bottom: 30px; */
-  }
+   
+  } */
 
   .home-container {
     flex-direction: column;
@@ -387,7 +387,7 @@ footer {
 
 /* media query for iphone x */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .mobile-logo {
+  /* .mobile-logo {
     display: block;
     width: 100%;
     height: 200px;
@@ -395,8 +395,7 @@ footer {
     background-size: cover;
     background-position: center;
     margin-top: 0px;
-    /* margin-bottom: 30px; */
-  }
+  } */
 
   .features-container {
     /* margin-bottom: 30px; */
