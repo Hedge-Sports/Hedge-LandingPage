@@ -223,6 +223,10 @@ nav ul a:last-child {
 }
 
 #mc_embed_signup_scroll-2 {
+  text-align: left;
+}
+
+#mc_embed_signup_scroll {
   text-align: center;
 }
 
