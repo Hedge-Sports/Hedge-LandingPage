@@ -236,6 +236,7 @@ footer {
   align-items: center;
   color: white;
   font-size: 20px;
+  width: 100%;
 }
 
 /* media query for iPhone 6,7,8 view */
@@ -337,7 +338,7 @@ footer {
 
   .section-divider {
   }
-  #mc_embed_signup_scroll {
+  #mc_embed_signup_scroll-2 {
     display: none !important;
   }
 
