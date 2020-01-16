@@ -196,12 +196,15 @@ nav ul a:last-child {
 .bottom-signup {
   width: 100%;
   height: 300px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
 /* media query for iPhone 6,7,8 view */
 @media only screen and (min-width: 375px) and (max-width: 667px) {
+  .bottom-signup {
+    display: flex;
+  }
   #home {
     position: absolute;
     width: 100%;
@@ -266,8 +269,15 @@ nav ul a:last-child {
     align-items: center;
   }
 
+  .home-container {
+    margin-bottom: 0;
+  }
   .home-text-container p {
     width: 80%;
+  }
+
+  .divider-first {
+    margin-top: 1100px;
   }
 
   .top-phone-img-container {
