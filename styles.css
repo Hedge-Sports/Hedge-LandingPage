@@ -392,6 +392,14 @@ footer p {
   #subscribe #second-email {
     font-size: 25px !important;
   }
+  footer {
+    flex-direction: column;
+    height: 120px;
+  }
+
+  footer p {
+    padding: 0;
+  }
 }
 
 /* media query for iphone x */
